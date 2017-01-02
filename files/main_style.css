@@ -24,7 +24,7 @@
  body.affix .cento-header .nav-wrap { position: fixed; top: 0; z-index: 15; border-bottom: 2px solid #f7f7f7; }
  #icontent .banner-wrap { width: 1115px; }
  #icontent .container { overflow: visible; }
- .cento-header { position: relative; z-index: 9; width: 100%; background: #ffffff; padding: 40px 0 0; box-sizing: border-box; }
+ .cento-header { position: relative; z-index: 9; width: 100%; background: #d3d3d3; padding: 40px 0 0; box-sizing: border-box; }
  .cento-header .logo { overflow: hidden; margin-bottom: 20px; }
  .cento-header .logo img { display: block; overflow: hidden; max-width: 200px; }
  .cento-header .logo #wsite-title { display: block; max-width: 500px; }
