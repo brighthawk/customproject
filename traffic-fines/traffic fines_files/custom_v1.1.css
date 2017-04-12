@@ -1,0 +1,134 @@
+.breadcrumb_position_2 .row{position:absolute; top:55px; z-index:1; margin-right:0;}
+.breadcrumb_position_2 .breadcrumb{margin:10px 0;}
+.breadcrumb_position_2 .breadcrumb li a{color:#e4e4e4;}
+.breadcrumb_position_2 .breadcrumb li.active{color:#cccccc;}
+
+.breadcrumb_position_3 .row{position:absolute; top:55px; z-index:1; margin-right:0;}
+.breadcrumb_position_3 .breadcrumb{margin:10px 0;}
+
+.form-personal.form-personal_auto .check-form {
+    min-width: 100%;
+}
+.b-statee a.b-statee__title{
+	display: block;
+}
+@media (max-width: 767px){
+	.b-statee.b-question {
+		margin-top: 15px;
+	}
+	.container_autoentity .btn-more_new {
+		margin-top: 10px;
+	}
+	.article-item{
+		padding-top:0;
+		top: -12px
+	}
+	.b-statee.b-article {
+		margin-bottom: 15px;
+	}
+	.b-article__body{
+	    margin-bottom: 5px;
+	}
+}
+.b-osago {
+    min-height: 581px;
+}
+.stat-social{
+	margin-bottom:10px;
+}
+.b-que a.active, a.b-statee__link.active{
+	border-bottom: 1px dashed #337ab7;
+	display: inline-block;
+	text-decoration: none;
+}
+a.b-statee__link.active{
+	margin-bottom: 0;
+}
+.b-statee_news-short_content a{
+	word-break: break-all;
+}
+
+.b-statee span.stat-eye, .b-statee span.stat-mail, .b-statee span.stat-like {
+    font-size: 16px;
+    font-family: Roboto-Light;
+    margin-right: 25px;
+	color: #bbbbbb;
+}
+
+.b-working .col-md-3.col-md-last:before, .b-working .item.col-md-last:before, .b-working .col-md-3.col-md-first:before, .b-working .item.col-md-first:before {
+	background-image: none;
+}
+h1.title-mini{
+	/*margin-top:0;*/
+}
+#modal_social_login .social-title{
+	color: #949494;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+#modal_social_login a{
+	padding:3px;
+}
+.b-right-info {
+    margin-bottom:15px;
+}
+.check-td span.number-reg__help.number-reg__help_info {
+    z-index:8;
+}
+.b-help-img{
+	z-index:2;
+}
+.b-header_autoentity{
+	height:auto;
+	background:url(../images/bg-avtoyrik.jpg) 0 0 no-repeat;
+	background-size:auto 100%;
+}
+
+.sum-number span{
+	padding-left:5px;
+}
+
+.b-header.b-header_entity .tel, .b-header .tel.tel_white{
+	top: -20px;
+}
+
+.nav-menu-partner .menu-personal .nav li:last-child{
+	float: initial;
+}
+.nav-menu-partner .menu-personal .nav li{
+	min-width: inherit;
+}
+
+@font-face{
+	font-family:"Rouble Arial";
+	src:url("../dir/theme/top_bott/fonts/rouble.ttf")
+}
+.ruble_font {
+	font-family: "Rouble Arial", serif;
+	text-transform: none;
+	display: inherit !important;
+	position: relative;
+	text-transform: uppercase;
+	text-indent: 0;
+	font-size: 93%;
+	font-weight: 100;
+}
+.ruble_font span:before {
+	content: '\2013';
+}
+.ruble_font span:before {
+	content: '';
+}
+.ruble_font span {
+	margin-top: .25ex;
+	overflow: hidden;
+	width: .45em;
+	height: 1em;
+	top: 8%;
+	position: absolute;
+	left: -2000px;
+}
+.content-btn button.btn-find{
+	float: none;
+}
